@@ -230,6 +230,7 @@ namespace ProjectPractice.Controllers
         [Route("SelectWhereProduct")]
         public Procuct SelectWhereProduct(int?id)
         {
+            //shiva//
             SqlConnection cn = new SqlConnection(connection);
             cn.Open();
             SqlCommand cmd = new SqlCommand("Sp_selectWHereProduct", cn);
