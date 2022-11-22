@@ -231,7 +231,7 @@ namespace ProjectPractice.Controllers
         public Procuct SelectWhereProduct(int?id)
         {
             //date//
-            //shiva//
+           
             SqlConnection cn = new SqlConnection(connection);
             cn.Open();
             SqlCommand cmd = new SqlCommand("Sp_selectWHereProduct", cn);
